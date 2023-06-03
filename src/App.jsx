@@ -14,6 +14,7 @@ const App = () => {
               <a href="#home" id='home'>
                 <img src="./logo.jpeg" className='logo' alt="logo" />
               </a>
+            {/* <div className='box'></div> */}
             </div>
             
             <ul className='nav__item'>
@@ -34,12 +35,11 @@ const App = () => {
         {/* About me */}
         <div className='about-me__container'>
           <div className='about-me' id='about-me'>
-            <div className='box'></div>
             <div>
-              <img src="./public/presentation.jpeg" className='presentation__img' alt="presentation" />
+              <img src="./presentation.jpeg" className='presentation__img' alt="presentation" />
             </div>
-            <div className='about-me'>
-              <h1 className='about-me__info'>Jorge Luis Uceta Familia</h1>
+            <div className='about-me__presentation'>
+              <h1 className='about-me__info'>I'm Jorge Luis Uceta. A Full Stack Developer <span>From Dominican Republic.</span></h1>
               <p className='about-me__body'>
                 Soy un joven de <span>Republica Dominicana</span>, que como una persona proactiva me gusta esta siempre <span>aprender</span> cosas nuevas, <span>sin miedo</span> a equivocarme y con todo el animo de poder <span>superar</span> cualquier barrera. <br />
                 Actualmente estudiando en <span className='academlo'>Academlo</span>, en el cual junto con los demas compañeros hemos realizados varios <span>proyectos</span>, con el motivo de poder llegar a ser un <span>Senior Developer</span>. <br />
