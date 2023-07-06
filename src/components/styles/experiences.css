@@ -1,0 +1,97 @@
+.exp{
+    position: relative;
+    top: 3rem;
+    left: 4rem;
+    width: 100%;
+    height: 400px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.exp__title{
+    width: 100%;
+    height: 500px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.exp__title-head{
+    width: 130px;
+    height: 25px;
+    color: var(--menu);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.exp__title-body{
+    width: 80%;
+    height: 100px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--letters);
+}
+
+.exp__body{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.exp__body-box{
+    width: 400px;
+    height: 100%;
+}
+
+.exp__body-num{
+    width: 35%;
+    height: 35%;
+    margin-bottom: 1rem;
+    font-size: 60px;
+    color: var(--bg-second);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.exp__body-company{
+    font-weight: 700;
+    color: var(--pricipal-Cl);
+}
+
+.exp__body-position {
+    color: var(--letters);
+}
+
+.exp__body-text{
+    color: var(--menu);
+}
+
+
+
+
+
+:root{
+    --bg: #000000;
+    --bg-second: #146C94;
+    --pricipal-Cl: #212a3e;
+    --letters: #FFFFFF;
+    --menu: #8491A0;
+    --pc:#181823;
+}

@@ -14,39 +14,41 @@ const NavBar = () => {
     <div className='nav__container'>
         <nav className='nav__nav'>
             <div className='nav__header'>
-            {/* Home Logo */}
-            <a href="#home" className='nav__logo'>
-              <img src="logo.jpeg" className='nav__img' alt="logo" />
-            </a>
+                {/* Home Logo */}
+                <a href="#home" className='nav__logo'>
+                    <img src="logo.jpeg" className='nav__img' alt="logo" />
+                </a>
 
-            <div className='nav__menu'>
-                {/* Menu Icon */}
-                <div className='nav__menu-icon'>
-                    <i onClick={toggleMenu} className='bx bx-menu-alt-right'></i>
+                <div className='nav__menu'>
+                    {/* Menu Icon */}
+                    <div className='nav__menu-icon'>
+                        <i onClick={toggleMenu} className='bx bx-menu-alt-right'></i>
+                    </div>
+
+                    {/* NavBar options */}
+                    <ul className={`nav__list ${isOpen ? "is-open" : ""}`}>
+                        <li className='nav__item'>
+                            <a style={{color: 'white'}} href="#experience">Experience</a>
+                        </li>
+                        <li className='nav__item'>
+                            <a style={{color: 'white'}} href="#skills">Skills</a>
+                        </li>
+                        <li className='nav__item'>
+                            <a style={{color: 'white'}} href="#projects">Projects</a>
+                        </li>
+                        <li className='nav__item'>
+                            <a style={{color: 'white'}} href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
                 </div>
-
-                {/* NavBar options */}
-                <ul className={`nav__list ${isOpen ? "is-open" : ""}`}>
-                    <li className='nav__item'>
-                        <a href="#about-me">About me</a>
-                    </li>
-                    <li className='nav__item'>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li className='nav__item'>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li className='nav__item'>
-                        <a href="#contact-me">Contact me</a>
-                    </li>
-                </ul>
-            </div>
             </div>
 
             {/* Picture's presentation */}
             <div className='presentation__container'>
                 <img src="j-u-z.jpeg" className='presentation-me' alt="me" />
             </div>
+
+            <div className='nav__box'></div>
 
             {/* Presentation's Info */}
             <h1 className='nav__title'>
