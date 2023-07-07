@@ -1,0 +1,134 @@
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 8rem;
+}
+
+.footer__title{
+    position: relative;
+    top: -4rem;
+    left: 3rem;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer__logo{
+    width: 30%;
+    height: 30%;
+}
+
+.footer__icons{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.bxl-whatsapp{
+    font-size: 30px;
+    filter: drop-shadow(0px 1px 9px #146C94);
+}
+
+.bxl-whatsapp:hover{
+    filter: drop-shadow(0px 0px 40px #146C94) invert(7%);
+}
+
+.bxl-instagram{
+    font-size: 30px;
+    filter: drop-shadow(0px 1px 9px #146C94);
+}
+
+.bxl-instagram:hover{
+    filter: drop-shadow(0px 0px 40px #146C94) invert(7%);
+}
+
+.bxl-linkedin-square{
+    font-size: 30px;
+    filter: drop-shadow(0px 1px 9px #146C94);
+}
+
+.bxl-linkedin-square:hover{
+    filter: drop-shadow(0px 0px 40px #146C94) invert(7%);
+}
+
+.bxl-twitter{
+    font-size: 20px;
+    filter: drop-shadow(0px 1px 9px #146C94);
+}
+
+.bxl-twitter:hover{
+    filter: drop-shadow(0px 0px 40px #146C94) invert(7%);
+}
+
+.bx-at{
+    font-size: 20px;
+    filter: drop-shadow(0px 1px 9px #146C94);
+}
+
+.footer__body{
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: -4rem;
+}
+
+.footer__body-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__body-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer__body-items{
+    color: var(--letters);
+}
+
+.footer__body-items:hover{
+    color: var(--bg-second);
+}
+
+.footer__body-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+:root{
+    --bg: #000000;
+    --bg-second: #146C94;
+    --pricipal-Cl: #212a3e;
+    --letters: #FFFFFF;
+    --menu: #8491A0;
+    --pc:#181823;
+}

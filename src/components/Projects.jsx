@@ -29,22 +29,15 @@ const Projects = () => {
                 <p>This E-commerces is especial for you, here you can see multiples articles and things that you'd like it. Click to see it.</p>
             </a>
         </div>
+        <div className='project__btn-link'>
+            <a className='project__link' href="https://app.netlify.com/teams/juz01/sites" target='blank'>
+                <button className='project__btn'>More Projects</button>
+            </a>
+          </div>
     </div>
   )
 }
 
 export default Projects
 
-
-// POKEMON
-// https://pokedex-by-jorge-uceta.netlify.app
-
-// REGISTER
-// https://user-register-by-jorge-uceta.netlify.app
-
-// E-COMMERCE 2
-// https://e-commerce-react-by-jorge-uceta.netlify.app
-
-// WEATHER
-// https://weatherapp-by-jorgeuceta.netlify.app
 

@@ -1,6 +1,6 @@
 .project{
     width: 100%;
-    height: 800px;
+    height: 990px;
     position: relative;
     left: 3rem;
     display: flex;
@@ -82,6 +82,39 @@ p{
     height: 60%;
 }
 
+.project__btn-link{
+    width: 20%;
+    height: 40px;
+    border: 2px solid var(--bg-second);
+    position: absolute;
+    bottom: 3rem;
+    right: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.project__link{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.project__btn{
+    width: 100%;
+    height: 100%;
+    color: var(--letters);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.project__btn:hover{
+    background-color: #8491A0;
+    color: var(--bg);
+    border-radius: 0.4rem;
+}
 
 :root{
     --bg: #000000;
