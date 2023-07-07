@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/j_uz01/" target='blank'>
             <i className='bx bxl-instagram' style={{color:'#146C94'}} ></i>
           </a>
-          <a href="www.linkedin.com/in/jorge-luis-uceta-familia-b79b18281" target='blank'>
+          <a href="https://www.linkedin.com/in/jorge-luis-uceta-familia-b79b18281/" target='blank'>
             <i className='bx bxl-linkedin-square' style={{color:'#146C94'}}></i>
           </a>
         </div>
