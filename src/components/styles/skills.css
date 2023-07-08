@@ -1,5 +1,5 @@
 .skill{
-    width: 100%;
+    width: 90%;
     height: 400px;
     color: white;
     display: flex;
@@ -118,14 +118,44 @@
 .skill__pic-img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .skill__pic-item:nth-child(5){
     background-color: white;
 }
 
+@media (max-width: 420px) {
+    .skill{
+        width: 100%;
+        height: 800px;
+        color: white;
+    }
+
+    .skill__title{
+        width: 500px;
+        height: 300px;
+        gap: 1rem;
+        position: relative;
+        top: -15rem;
+        left: 1rem;
+    }
+
+    .skill__body{
+        width: 60%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0rem;
+        gap: 1rem;
+        background-color: red;
+    }
 
 
+}
 
 
 

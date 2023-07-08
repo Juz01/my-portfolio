@@ -27,6 +27,9 @@ const NavBar = () => {
 
                     {/* NavBar options */}
                     <ul className={`nav__list ${isOpen ? "is-open" : ""}`}>
+                        <li className='nav__item-ex'>
+                            <a style={{color: 'white'}} href="#home">Home</a>
+                        </li>
                         <li className='nav__item'>
                             <a style={{color: 'white'}} href="#experience">Experience</a>
                         </li>

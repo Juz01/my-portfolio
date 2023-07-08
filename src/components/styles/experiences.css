@@ -84,6 +84,29 @@
     color: var(--menu);
 }
 
+@media (max-width: 420px) {
+    .exp{
+        position: relative;
+        top: 0rem;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .exp__title-head{
+        position: relative;
+        top: -3rem;
+        width: 130px;
+        height: 25px;
+        color: var(--menu);
+    }
+}
+
 
 
 :root{

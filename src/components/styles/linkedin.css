@@ -57,9 +57,55 @@
 .link__body-img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
+@media (max-width: 420px) {
+    .link{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        top: 2rem;
+        left: 0;
+    }
 
+    .link__title{
+        width: 50%;
+        height: 95%;
+        position: relative;
+        top: 0.5rem;
+        background-color: var(--pricipal-Cl);
+    }
+
+    .link__title-body{
+        width: 80%;
+        height: 300px;
+        font-size: 15px;
+        position: relative;
+        top: -2rem;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--letters);
+    }
+
+    .link__title-title{
+        width: 100%;
+        height: 80px;
+        font-size: 23px;
+        font-weight: 700;
+        position: relative;
+        top: 2.2rem;
+        color: var(--menu);
+    }
+
+}
 
 
 
